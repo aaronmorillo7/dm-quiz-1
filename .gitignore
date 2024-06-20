@@ -1,0 +1,36 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore compiled C/C++ files
+*.so
+*.dll
+*.a
+*.lib
+*.obj
+
+# Ignore IDE-specific files
+.idea/
+*.sublime-workspace
+
+# Ignore log files and databases
+*.log
+*.sqlite3
+*.db
+
+# Ignore temporary files and directories
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+
+etc/
+.ipynb_checkpoints/
+.virtual_documents/
+bin/
+lib/
+share/
+pyvenv.cfg
